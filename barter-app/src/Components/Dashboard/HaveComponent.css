@@ -1,8 +1,0 @@
-.HaveNeedGrid{
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-}
-
-.image-rounded{
-    border-radius: 10px;
-}
