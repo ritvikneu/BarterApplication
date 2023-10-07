@@ -1,0 +1,49 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tab-box {
+  display: flex;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tab {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.tab.active {
+  color: #fff;
+  background-color: black;
+}
+
+.tab-content {
+  margin-top: 20px;
+}
+
+.my-haves {
+  color: #50AEB3;
+}
+
+.my-needs {
+  color: rgb(150, 21, 9);
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.TradeRequestBtn {
+  width: 256px
+}

@@ -1,0 +1,12 @@
+.center {
+    font-family: Arial;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .product-grid {
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 5px #ccc;
+    padding: 10px;
+  }

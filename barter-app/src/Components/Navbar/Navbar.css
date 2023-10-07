@@ -1,0 +1,107 @@
+*{
+    box-sizing: border-box;
+}
+ 
+body{
+    margin: 0;
+    z-index: 10;
+}
+.HomePage {
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+}
+
+html[theme='dark-mode'] .HomePage a{
+  filter: invert(1) hue-rotate(180deg);
+}
+
+
+.HomePage a{
+  color: rgb(0, 0, 0);
+}
+.nav{
+    background-color: #585E66;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    padding: 0 1rem;
+    z-index: 10;
+}
+
+.nav ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+
+}
+.nav a{
+    height: 100%;
+    display: flex;
+    align-items: stretch;
+    padding: 0.25rem;
+    color: rgb(255, 255, 255) ;
+    text-decoration: none;
+
+    @media (prefers-color-scheme: dark) {
+      color: #FFFFFF;
+    }
+}
+
+li:hover{
+    color: rgb(0, 0, 0);
+}
+
+.Logoutbtn{
+    border-radius: 12px;
+    color: #585E66;
+    width: 90px;
+
+}
+
+
+.SideNavbar {
+    position: fixed;
+    left: -200px; /* Start off-screen */
+    top: 56px;
+    height: 100%;
+    width: 200px;
+    background-color:#585E66;
+    color: #fff;
+    transition: left 0.3s ease-in-out; /* Add a transition for the 'left' property */
+    z-index: 9999;
+  }
+  
+  .SideNavbar.show {
+    left: 0; /* Slide in to view */
+  }
+  
+  .SideNavbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .SideNavbar li {
+    margin: 10px 0;
+  }
+  
+  .SideNavbar a {
+    display: block;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .MenuButton{
+    border: none;
+    background-color:#585E66 ;
+    width: 100px;
+    color: white;
+    font-weight: 500;
+    
+  }
+  
+  

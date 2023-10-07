@@ -1,0 +1,52 @@
+
+
+.Ftr{
+    padding-top: 5%;
+}
+
+
+.Footer{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 20%;
+    padding: 3%;
+    gap: 200px;
+    background-color: #585E66 ;
+    
+}
+
+.BarterLogo{
+    width: 200px;
+    height: 150px;
+}
+
+.List1 , .List3 {
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+    
+    padding: 1%;
+}
+
+
+a{
+    color: rgb(255, 255, 255);
+    padding: 2px;
+    text-decoration: none;
+}
+
+li{
+    text-decoration: none;
+    padding: 4px;
+    list-style: none;
+}
+
+.LogoList{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    height:30px;
+    width: 30px;
+    margin-top: 2%;
+}
